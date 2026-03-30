@@ -2,9 +2,9 @@
 
 ## 🚀 My TryHackMe Achievements
 I am actively training on TryHackMe to build practical, real-world skills in threat hunting, incident response, and secure development.
-* **Global Rank:** #6460 (Top 1%)
-* **Learning Streak:** 91+ days (Current Goal: 100 days)
-* **Rooms Completed:** 280+
+* **Global Rank:** #6382 (Top 1%)
+* **Learning Streak:** 103+ days (Current Goal: 120 days)
+* **Rooms Completed:** 283+
 * * **Badges:** 56
 * **Profile & Badges:** [View my TryHackMe Profile (NutCracker)](https://tryhackme.com/p/NutCracker)
 
@@ -20,7 +20,7 @@ I am actively training on TryHackMe to build practical, real-world skills in thr
 
 ---
 
-## 📁 My Projects & Write-ups
+## 📁 My Write-ups
 
 ### 🔒 DevSecOps & Secure SDLC
 * [**Implementing Secure SDLC: Manual Code Review and SAST Analysis**](./DevSecOps_SSDLC/SDLC.md)
@@ -33,4 +33,8 @@ I am actively training on TryHackMe to build practical, real-world skills in thr
 ### 🔒 What is QUIC & HTTP/3? A Cybersecurity Perspective
 * [**What is QUIC & HTTP/3? A Cybersecurity Perspective**](./HTTP3_QUIC/HTTP3_QUIC.md)
   * *Description:* Exploring QUIC & HTTP/3.
+---
+### 🔒 Integrating Security Testing into the QA Process
+* [**Integrating Security Testing into the QA Process**](./Integrating_Security_Testing_into_the_QA_Process/README.md)
+  * *Description:* A practical guide on how QA engineers can implement Shift-Left Security by integrating core web vulnerability checks, misconfiguration tests, and tools like OWASP ZAP and Burp Suite into their daily testing routines..
 ---
