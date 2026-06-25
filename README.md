@@ -2,10 +2,10 @@
 
 ## 🚀 My TryHackMe Achievements
 I am actively training on TryHackMe to build practical, real-world skills in threat hunting, incident response, and secure development.
-* **Global Rank:** #6747 (Top 1%)
-* **Learning Streak:** 187+ days (Current Goal: 360 days)
-* **Capability Score:** 70
-* **Rooms Completed:** 291+
+* **Global Rank:** #6323 (Top 1%)
+* **Learning Streak:** 191+ days (Current Goal: 360 days)
+* **Capability Score:** 89
+* **Rooms Completed:** 302+
 * * **Badges:** 57
 * **Profile & Badges:** [View my TryHackMe Profile (NutCracker)](https://tryhackme.com/p/NutCracker)
 
