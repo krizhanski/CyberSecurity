@@ -246,8 +246,7 @@ Both commands returned no output — the expected behavior for NACL entry creati
 
 All three network defense layers had been bypassed.
 
-![Terminal output: successful ICMP ping responses after NACL modification]
-(ping-success.png)
+![Terminal output: successful ICMP ping responses after NACL modification](ping-success.png)
 
 ---
 
