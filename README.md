@@ -40,6 +40,6 @@ I am actively training on TryHackMe to build practical, real-world skills in thr
   * *Description:* A practical guide on how QA engineers can implement Shift-Left Security by integrating core web vulnerability checks, misconfiguration tests, and tools like OWASP ZAP and Burp Suite into their daily testing routines..
 ---
 ### 🔒 AWS VPC Security: Network Defense Layers & Data Exfiltration
-* [**AWS VPC Security: Network Defense Layers & Data Exfiltration**](./AWS_VPC_Data_Exfiltration/README.md)
+* [**AWS VPC Security: Network Defense Layers & Data Exfiltration**](./AWS%20VPC%20%E2%80%94%20Data%20Exfiltration/aws-vpc-data-exfiltration-research.md)
   * *Description:* A practical study of how compromised IAM credentials can be used to systematically dismantle AWS network defenses — Route Tables, Security Groups, and Network ACLs — to exfiltrate data from a privately isolated EC2 instance. Based on a controlled TryHackMe exercise from the Attacking and Defending AWS learning path.
   ---
