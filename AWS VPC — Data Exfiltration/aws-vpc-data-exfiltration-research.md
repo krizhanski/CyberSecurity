@@ -49,8 +49,7 @@ To reach it from the outside, all four of these conditions had to be changed. Ea
 
 ## Step 1: Establishing a Public Identity for the Target
 
-![Attack chain overview: four steps to dismantle AWS network defenses]
-(attack-chain-breakdown.png)
+![Attack chain overview: four steps to dismantle AWS network defenses](attack-chain-breakdown.png)
 
 The first prerequisite for any external access is a routable public IP address. AWS EC2 instances in private subnets have only private IPs by default, which are unreachable from the internet. The AWS service that provides permanent public IPs is called **Elastic IP (EIP)**.
 
@@ -93,8 +92,6 @@ aws ec2 associate-address \
 ```
 
 At this point, a continuous ping was started against `54.***.***.**` to provide real-time feedback on when connectivity would actually be established. It immediately hung — as expected. A public IP exists, but there is no path through which traffic can flow.
-
-![Screenshot: AWS CLI output showing ENI table with Engineering Wiki identified](screenshots/01-eni-discovery.png)
 
 ---
 
@@ -149,8 +146,7 @@ aws ec2 create-route \
 
 The response `{"Return": true}` confirmed the route was created. The ping, however, still produced no responses. The subnet now has a path to the internet — but the next layer of defense was holding.
 
-![Terminal output: describe-route-tables showing VPC-Capstone-PrivateRouteTable]
-(route-update.png)
+![Terminal output: describe-route-tables showing VPC-Capstone-PrivateRouteTable](route-update.png)
 
 ---
 
@@ -196,8 +192,7 @@ aws ec2 authorize-security-group-ingress \
 
 `IpProtocol: -1` is AWS notation for "all protocols." The instance-level firewall was now fully open. Yet the ping terminal remained silent. A third defense layer was discarding the packets before they could reach the instance at all.
 
-![Terminal output: Security Group ingress rule successfully added]
-(sg-success.png)
+![Terminal output: Security Group ingress rule successfully added](sg-success.png)
 
 ---
 
@@ -302,8 +297,7 @@ This underscores that the traditional "did someone hack us?" question is the wro
 
 ## Defensive Recommendations
 
-![Defensive recommendations overview: Defense-in-Depth strategy]
-(defense-in-depth.png)
+![Defensive recommendations overview: Defense-in-Depth strategy](defense-in-depth.png)
 
 Based on the attack chain documented above, the following controls would have prevented or detected this attack:
 
